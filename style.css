@@ -1,3 +1,21 @@
+/* Fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        background-color: white; /* Start with a white background */
+    }
+    to {
+        opacity: 1;
+        background-color: transparent; /* End with no background color */
+    }
+}
+
+/* Apply the fade-in to the whole page */
+body {
+    animation: fadeIn 0.8s ease-in-out; /* Adjust duration and easing as desired */
+}
+
+
 /* General styling */
 body {
     font-family: Arial, sans-serif;
