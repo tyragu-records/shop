@@ -3,7 +3,7 @@ const chatId = '7228202401';
 
 const products = [
     { name: "Dark Side of the Moon CD", price: 25.99, description: "Dark Side of the Moon - Pink Floyd", image: "product1.jpg" },
-    { name: "Product 2", price: 15, description: "This is product 2", image: "product2.jpg" },
+    { name: "This Old Dog CD", price: 23.99, description: "This Old Dog - Mac DeMarco", image: "product2.jpg" },
     { name: "Product 3", price: 20, description: "This is product 3", image: "product3.jpg" },
     { name: "Product 4", price: 25, description: "This is product 4", image: "product4.jpg" },
     { name: "Product 5", price: 30, description: "This is product 5", image: "product5.jpg" },
