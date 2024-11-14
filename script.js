@@ -19,7 +19,10 @@ const productSection = document.getElementById("products");
 if (productSection) {
     console.log("Product section found:", productSection);
 
-    // Loop through the products array
+    // Sort products by name alphabetically
+    products.sort((a, b) => a.name.localeCompare(b.name));
+
+    // Loop through the sorted products array
     products.forEach(product => {
         console.log("Creating product:", product); // Debug: confirm each product is accessed
 
