@@ -2,7 +2,7 @@ const botToken = '7566416998:AAFeeQplxMVsQ9tMpskOZl4uPuAnzsShbLc';
 const chatId = '7228202401';
 
 const products = [
-    { name: "John Pork Shirt", price: 25.99, description: "Black John Pork Cotton Shortsleeve", image: "product1.jpg" },
+    { name: "Dark Side of the Moon CD", price: 25.99, description: "Dark Side of the Moon - Pink Floyd", image: "product1.jpg" },
     { name: "Product 2", price: 15, description: "This is product 2", image: "product2.jpg" },
     { name: "Product 3", price: 20, description: "This is product 3", image: "product3.jpg" },
     { name: "Product 4", price: 25, description: "This is product 4", image: "product4.jpg" },
