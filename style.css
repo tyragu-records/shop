@@ -15,7 +15,6 @@ body {
     animation: fadeIn 0.8s ease-in-out; /* Adjust duration and easing as desired */
 }
 
-
 /* General styling */
 body {
     font-family: Arial, sans-serif;
@@ -81,6 +80,7 @@ h1 {
     position: relative; /* Enables positioning of the image */
     overflow: hidden; /* Crops overflow if needed */
     border-radius: 8px; /* Optional: rounded corners */
+    margin-bottom: 10px; /* Space between image and title */
 }
 
 /* Product image styling */
@@ -95,15 +95,15 @@ h1 {
 
 /* Product heading and text styling */
 .product h2 {
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: #333;
-    margin-top: 10px;
+    margin: 5px 0; /* Less space above and below the title */
 }
 
 .product p {
     font-size: 1em;
     color: #666;
-    margin: 10px 0;
+    margin: 5px 0; /* Less space above and below description and price */
 }
 
 /* Button styling */
@@ -116,6 +116,7 @@ button {
     cursor: pointer;
     transition: background-color 0.2s;
     font-size: 1em;
+    margin-top: 10px; /* Adds space between the price and the button */
 }
 
 button:hover {
